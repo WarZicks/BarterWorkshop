@@ -1,0 +1,448 @@
+; FBX 7.5.0 project file
+; Copyright (C) 1997-2010 Autodesk Inc. and/or its licensors.
+; All rights reserved.
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 7500
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2019
+		Month: 5
+		Day: 21
+		Hour: 14
+		Minute: 48
+		Second: 39
+		Millisecond: 156
+	}
+	Creator: "FBX SDK/FBX Plugins version 2016.1.1"
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: ""
+			Subject: ""
+			Author: ""
+			Keywords: ""
+			Revision: ""
+			Comment: ""
+		}
+		Properties70:  {
+			P: "DocumentUrl", "KString", "Url", "", "D:\bueu\3D\FBX\paleoFBX\Silex_Poli.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "D:\bueu\3D\FBX\paleoFBX\Silex_Poli.fbx"
+			P: "Original", "Compound", "", ""
+			P: "Original|ApplicationVendor", "KString", "", "", ""
+			P: "Original|ApplicationName", "KString", "", "", ""
+			P: "Original|ApplicationVersion", "KString", "", "", ""
+			P: "Original|DateTime_GMT", "DateTime", "", "", ""
+			P: "Original|FileName", "KString", "", "", ""
+			P: "LastSaved", "Compound", "", ""
+			P: "LastSaved|ApplicationVendor", "KString", "", "", ""
+			P: "LastSaved|ApplicationName", "KString", "", "", ""
+			P: "LastSaved|ApplicationVersion", "KString", "", "", ""
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", ""
+		}
+	}
+}
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",1
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",2
+		P: "FrontAxisSign", "int", "Integer", "",1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",-1
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",1
+		P: "OriginalUnitScaleFactor", "double", "Number", "",1
+		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
+		P: "TimeMode", "enum", "", "",0
+		P: "TimeProtocol", "enum", "", "",2
+		P: "SnapOnFrameMode", "enum", "", "",0
+		P: "TimeSpanStart", "KTime", "Time", "",0
+		P: "TimeSpanStop", "KTime", "Time", "",46186158000
+		P: "CustomFrameRate", "double", "Number", "",-1
+		P: "TimeMarker", "Compound", "", ""
+		P: "CurrentTimeMarker", "int", "Integer", "",-1
+	}
+}
+
+; Documents Description
+;------------------------------------------------------------------
+
+Documents:  {
+	Count: 1
+	Document: 5458383360, "", "Scene" {
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", ""
+		}
+		RootNode: 0
+	}
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References:  {
+}
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 21
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "Model" {
+		Count: 10
+		PropertyTemplate: "FbxNode" {
+			Properties70:  {
+				P: "QuaternionInterpolate", "enum", "", "",0
+				P: "RotationOffset", "Vector3D", "Vector", "",0,0,0
+				P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingOffset", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationActive", "bool", "", "",0
+				P: "TranslationMin", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMax", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMinX", "bool", "", "",0
+				P: "TranslationMinY", "bool", "", "",0
+				P: "TranslationMinZ", "bool", "", "",0
+				P: "TranslationMaxX", "bool", "", "",0
+				P: "TranslationMaxY", "bool", "", "",0
+				P: "TranslationMaxZ", "bool", "", "",0
+				P: "RotationOrder", "enum", "", "",0
+				P: "RotationSpaceForLimitOnly", "bool", "", "",0
+				P: "RotationStiffnessX", "double", "Number", "",0
+				P: "RotationStiffnessY", "double", "Number", "",0
+				P: "RotationStiffnessZ", "double", "Number", "",0
+				P: "AxisLen", "double", "Number", "",10
+				P: "PreRotation", "Vector3D", "Vector", "",0,0,0
+				P: "PostRotation", "Vector3D", "Vector", "",0,0,0
+				P: "RotationActive", "bool", "", "",0
+				P: "RotationMin", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMax", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMinX", "bool", "", "",0
+				P: "RotationMinY", "bool", "", "",0
+				P: "RotationMinZ", "bool", "", "",0
+				P: "RotationMaxX", "bool", "", "",0
+				P: "RotationMaxY", "bool", "", "",0
+				P: "RotationMaxZ", "bool", "", "",0
+				P: "InheritType", "enum", "", "",0
+				P: "ScalingActive", "bool", "", "",0
+				P: "ScalingMin", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingMax", "Vector3D", "Vector", "",1,1,1
+				P: "ScalingMinX", "bool", "", "",0
+				P: "ScalingMinY", "bool", "", "",0
+				P: "ScalingMinZ", "bool", "", "",0
+				P: "ScalingMaxX", "bool", "", "",0
+				P: "ScalingMaxY", "bool", "", "",0
+				P: "ScalingMaxZ", "bool", "", "",0
+				P: "GeometricTranslation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricRotation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricScaling", "Vector3D", "Vector", "",1,1,1
+				P: "MinDampRangeX", "double", "Number", "",0
+				P: "MinDampRangeY", "double", "Number", "",0
+				P: "MinDampRangeZ", "double", "Number", "",0
+				P: "MaxDampRangeX", "double", "Number", "",0
+				P: "MaxDampRangeY", "double", "Number", "",0
+				P: "MaxDampRangeZ", "double", "Number", "",0
+				P: "MinDampStrengthX", "double", "Number", "",0
+				P: "MinDampStrengthY", "double", "Number", "",0
+				P: "MinDampStrengthZ", "double", "Number", "",0
+				P: "MaxDampStrengthX", "double", "Number", "",0
+				P: "MaxDampStrengthY", "double", "Number", "",0
+				P: "MaxDampStrengthZ", "double", "Number", "",0
+				P: "PreferedAngleX", "double", "Number", "",0
+				P: "PreferedAngleY", "double", "Number", "",0
+				P: "PreferedAngleZ", "double", "Number", "",0
+				P: "LookAtProperty", "object", "", ""
+				P: "UpVectorProperty", "object", "", ""
+				P: "Show", "bool", "", "",1
+				P: "NegativePercentShapeSupport", "bool", "", "",1
+				P: "DefaultAttributeIndex", "int", "Integer", "",-1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+				P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+				P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+				P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+				P: "Visibility", "Visibility", "", "A",1
+				P: "Visibility Inheritance", "Visibility Inheritance", "", "",1
+			}
+		}
+	}
+	ObjectType: "NodeAttribute" {
+		Count: 9
+		PropertyTemplate: "FbxNull" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "Size", "double", "Number", "",100
+				P: "Look", "enum", "", "",1
+			}
+		}
+	}
+	ObjectType: "Geometry" {
+		Count: 1
+		PropertyTemplate: "FbxMesh" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BBoxMin", "Vector3D", "Vector", "",0,0,0
+				P: "BBoxMax", "Vector3D", "Vector", "",0,0,0
+				P: "Primary Visibility", "bool", "", "",1
+				P: "Casts Shadows", "bool", "", "",1
+				P: "Receive Shadows", "bool", "", "",1
+			}
+		}
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	NodeAttribute: 5524242240, "NodeAttribute::house_1", "Null" {
+		TypeFlags: "Null"
+	}
+	NodeAttribute: 5524241856, "NodeAttribute::house_2", "Null" {
+		TypeFlags: "Null"
+	}
+	NodeAttribute: 5524241472, "NodeAttribute::house_3", "Null" {
+		TypeFlags: "Null"
+	}
+	NodeAttribute: 5524241088, "NodeAttribute::Steak", "Null" {
+		TypeFlags: "Null"
+	}
+	NodeAttribute: 5524240704, "NodeAttribute::Lance", "Null" {
+		TypeFlags: "Null"
+	}
+	NodeAttribute: 5524240320, "NodeAttribute::Lait", "Null" {
+		TypeFlags: "Null"
+	}
+	Geometry: 5498921984, "Geometry::Silex_Poli", "Mesh" {
+		Vertices: *108 {
+			a: 0.493680000305176,0,0,0.307508289813995,0,0.5,0.126808851957321,0,0.866025447845459,-9.46264044898726e-09,0,1,-0.126808911561966,0,0.866025388240814,-0.307508289813995,0,0.500000059604645,-0.493680030107498,0,-5.96046447753906e-08,-0.547570526599884,0,-0.500000178813934,-0.36687108874321,0,-0.866025447845459,9.19265286114523e-09,0,-1,0.36687108874321,0,-0.866025447845459,0.547570586204529,0,-0.499999761581421,0.25828155875206,0.119999997317791,-0.0555897615849972,0.0868740528821945,0.119999997317791,0.404758125543594,1.49011611938477e-08,0.119999997317791,0.580730557441711,1.04949808843458e-08,0.119999997317791,0.580730557441711,1.49011611938477e-08,0.119999997317791,0.580730557441711,-0.0868740528821945,0.119999997317791,0.404758214950562,-0.258281588554382,0.119999997317791,-0.0555897802114487,-0.301474213600159,0.119999997317791,-0.456334352493286,-0.194229975342751,0.119999997317791,-0.673568606376648,9.19265286114523e-09,0.119999997317791,-0.744497776031494,0.194229945540428,0.119999997317791,-0.673568606376648,0.301474273204803,0.119999997317791,-0.456333994865417,0.25828155875206,-0.119999997317791,-0.0555897615849972,0.0868740528821945,-0.119999997317791,0.404758125543594,1.49011611938477e-08,-0.119999997317791,0.580730557441711,1.04949808843458e-08,-0.119999997317791,0.580730557441711,1.49011611938477e-08,-0.119999997317791,0.580730557441711,-0.0868740528821945,-0.119999997317791,0.404758214950562,-0.258281588554382,-0.119999997317791,-0.0555897802114487,-0.301474213600159,-0.119999997317791,-0.456334352493286,-0.194229975342751,-0.119999997317791,-0.673568606376648,9.19265286114523e-09,-0.119999997317791,-0.744497776031494,0.194229945540428,-0.119999997317791,-0.673568606376648,0.301474273204803,-0.119999997317791,-0.456333994865417
+		} 
+		PolygonVertexIndex: *120 {
+			a: 23,22,21,20,19,18,17,16,15,14,13,-13,12,13,1,-1,13,14,2,-2,14,15,3,-3,15,16,4,-4,16,17,5,-5,17,18,6,-6,18,19,7,-7,19,20,8,-8,20,21,9,-9,21,22,10,-10,22,23,11,-11,23,12,0,-12,25,26,27,28,29,30,31,32,33,34,35,-25,1,25,24,-1,2,26,25,-2,3,27,26,-3,4,28,27,-4,5,29,28,-5,6,30,29,-6,7,31,30,-7,8,32,31,-8,9,33,32,-9,10,34,33,-10,11,35,34,-11,0,24,35,-12
+		} 
+		GeometryVersion: 124
+	}
+	NodeAttribute: 5524239744, "NodeAttribute::Hache", "Null" {
+		TypeFlags: "Null"
+	}
+	NodeAttribute: 5524239360, "NodeAttribute::Silex_jaune", "Null" {
+		TypeFlags: "Null"
+	}
+	NodeAttribute: 5524238976, "NodeAttribute::Petit_bois", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 5336115968, "Model::house_1", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "Show", "bool", "", "",0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",200,200,200
+			P: "Visibility Inheritance", "Visibility Inheritance", "", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 5336113280, "Model::house_2", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "Show", "bool", "", "",0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",200,200,200
+			P: "Visibility Inheritance", "Visibility Inheritance", "", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 5336110592, "Model::house_3", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "Show", "bool", "", "",0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",200,200,200
+			P: "Visibility Inheritance", "Visibility Inheritance", "", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 5336107904, "Model::Steak", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "Show", "bool", "", "",0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",25,25,25
+			P: "Visibility Inheritance", "Visibility Inheritance", "", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 5336105216, "Model::Lance", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "Show", "bool", "", "",0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",25,25,25
+			P: "Visibility Inheritance", "Visibility Inheritance", "", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 5529810304, "Model::Lait", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "Show", "bool", "", "",0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",25,25,25
+			P: "Visibility Inheritance", "Visibility Inheritance", "", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 5529802240, "Model::Silex_Poli", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",25,25,25
+			P: "Visibility Inheritance", "Visibility Inheritance", "", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 5529799552, "Model::Hache", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "Show", "bool", "", "",0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",25,25,25
+			P: "Visibility Inheritance", "Visibility Inheritance", "", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 5524829568, "Model::Silex_jaune", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "Show", "bool", "", "",0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",25,25,25
+			P: "Visibility Inheritance", "Visibility Inheritance", "", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 5524826880, "Model::Petit_bois", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "Show", "bool", "", "",0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",25,25,25
+			P: "Visibility Inheritance", "Visibility Inheritance", "", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	
+	;Model::house_1, Model::RootNode
+	C: "OO",5336115968,0
+	
+	;Model::house_2, Model::RootNode
+	C: "OO",5336113280,0
+	
+	;Model::house_3, Model::RootNode
+	C: "OO",5336110592,0
+	
+	;Model::Steak, Model::RootNode
+	C: "OO",5336107904,0
+	
+	;Model::Lance, Model::RootNode
+	C: "OO",5336105216,0
+	
+	;Model::Lait, Model::RootNode
+	C: "OO",5529810304,0
+	
+	;Model::Silex_Poli, Model::RootNode
+	C: "OO",5529802240,0
+	
+	;Model::Hache, Model::RootNode
+	C: "OO",5529799552,0
+	
+	;Model::Silex_jaune, Model::RootNode
+	C: "OO",5524829568,0
+	
+	;Model::Petit_bois, Model::RootNode
+	C: "OO",5524826880,0
+	
+	;NodeAttribute::house_1, Model::house_1
+	C: "OO",5524242240,5336115968
+	
+	;NodeAttribute::house_2, Model::house_2
+	C: "OO",5524241856,5336113280
+	
+	;NodeAttribute::house_3, Model::house_3
+	C: "OO",5524241472,5336110592
+	
+	;NodeAttribute::Steak, Model::Steak
+	C: "OO",5524241088,5336107904
+	
+	;NodeAttribute::Lance, Model::Lance
+	C: "OO",5524240704,5336105216
+	
+	;NodeAttribute::Lait, Model::Lait
+	C: "OO",5524240320,5529810304
+	
+	;Geometry::Silex_Poli, Model::Silex_Poli
+	C: "OO",5498921984,5529802240
+	
+	;NodeAttribute::Hache, Model::Hache
+	C: "OO",5524239744,5529799552
+	
+	;NodeAttribute::Silex_jaune, Model::Silex_jaune
+	C: "OO",5524239360,5524829568
+	
+	;NodeAttribute::Petit_bois, Model::Petit_bois
+	C: "OO",5524238976,5524826880
+}
+;Takes section
+;----------------------------------------------------
+
+Takes:  {
+	Current: ""
+}
